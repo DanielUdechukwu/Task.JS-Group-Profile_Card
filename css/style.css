@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Raleway:wght@600&family=Roboto+Slab:wght@600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #5cdb94;
+  color: #fff;
+}
+.card{
+  border-radius: 2rem;
+  width: 30%;
+  height: 500px;
+  margin: 4rem auto;
+  background: #389583;
+}
+.whitespace{
+  height: 10rem;
+  border-radius: 2rem 2rem 0 0;
+}
+#heading{
+  text-align: center;
+  font-size: 4rem;
+  padding: 5rem 0 0 0;
+  font-family: 'Comfortaa';
+}
+#groupID{
+  font-family: 'Roboto Slab';
+}
+.heading{
+  text-align: center;
+  padding: 1rem 0;
+}
+.members{
+  margin: 0 3rem;
+}
+.members li{
+  font-size: 1.2rem;
+  font-family: 'Roboto Slab';
+  list-style-image: url('../images/check-all.svg');
+}
