@@ -48,7 +48,7 @@ body{
 }
 
 
-@media (min-width: 481px) and (max-width: 769px){
+@media (min-width: 415px) and (max-width: 769px){
   .card{
     width: 55%;
     margin: 3rem auto;
@@ -59,7 +59,7 @@ body{
 }
 
 
-@media (max-width: 480px){
+@media (max-width: 414px){
   .card{
     width: 90%;
     margin: 3rem auto;
