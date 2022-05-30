@@ -12,6 +12,8 @@ document.getElementById("groupID").style.color = "#fff";
 
 let team = ['Jaybee', 'Danny', 'Spaghettiii', 'Francis', 'Chidimma', 'Smartlify', 'I_Am_DanielIkpe']
 
+console.log(team[1]);
+
 
 // Question 3: Object
 
@@ -25,6 +27,8 @@ let me = {
   state: 'Anambra',
   groupID: 'Demeter',
 }
+
+console.log(me.bestMovie);
 
 
 // Question 4: Variable concatenation
@@ -75,6 +79,7 @@ function areaOfCircle(radius){
 
   return pi * (radius ** 2);
 }
+console.log("Area of circle with radius 9cm = " + areaOfCircle(9));
 
 
 // Question 9:
@@ -85,8 +90,8 @@ let time = 2.6;         //in years
 
 let simpleInterest = (principal * rate * time) / 100;
 
-console.log("me");
-console.log(simpleInterest);
+console.log("Simple interest = ₦" + simpleInterest);
+console.log("Amount = ₦" + (simpleInterest + principal));
 
 
 // Question 10: Modulo
@@ -96,7 +101,7 @@ let second = 4;
 
 let mod = first % second;
 
-console.log(mod);
+console.log("The remainder of 10 % 4 = " +mod);
 
 
 // Question 11: BMI calculator
@@ -113,13 +118,14 @@ let nutJobCase1 = {
 }
 
 let meritCase1BMI = (meritCase1.weight) / meritCase1.height ** 2;
-console.log(meritCase1BMI);
+console.log("Test case 1");
+console.log("Merit's BMI = " + meritCase1BMI);
 
 let nutJobCase1BMI = (nutJobCase1.weight) / nutJobCase1.height ** 2;
-console.log(nutJobCase1BMI);
+console.log("NutJob's BMI = " + nutJobCase1BMI);
 
 let finalCheck = nutJobCase1BMI > meritCase1BMI;
-console.log(finalCheck);
+console.log("For test case 1, is nutJob's BMI greater than Merit's BNI? =  " + finalCheck);
 
 
 // Test case 2
@@ -135,10 +141,11 @@ let nutJobCase2 = {
 }
 
 let meritCase2BMI = (meritCase2.weight) / meritCase2.height ** 2;
-console.log(meritCase2BMI);
+console.log("Test case 2");
+console.log("Merit's BMI = " + meritCase2BMI);
 
 let nutJobCase2BMI = (nutJobCase2.weight) / nutJobCase2.height ** 2;
-console.log(nutJobCase2BMI);
+console.log("NutJob's BMI = " + nutJobCase2BMI);
 
 let finalCheck2 = nutJobCase2BMI > meritCase2BMI;
-console.log(finalCheck2);
+console.log("For test case 2, is nutJob's BMI greater than Merit's BMI? =  " + finalCheck2);
