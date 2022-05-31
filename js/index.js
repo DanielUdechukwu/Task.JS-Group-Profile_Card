@@ -149,3 +149,10 @@ console.log("NutJob's BMI = " + nutJobCase2BMI);
 
 let finalCheck2 = nutJobCase2BMI > meritCase2BMI;
 console.log("For test case 2, is nutJob's BMI greater than Merit's BMI? =  " + finalCheck2);
+
+let color = 'red';
+let displayColor = true;
+
+let show = displayColor ? 'red' : 'blue';
+
+console.log(show);
