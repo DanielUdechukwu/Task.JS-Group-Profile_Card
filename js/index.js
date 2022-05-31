@@ -150,6 +150,8 @@ console.log("NutJob's BMI = " + nutJobCase2BMI);
 let finalCheck2 = nutJobCase2BMI > meritCase2BMI;
 console.log("For test case 2, is nutJob's BMI greater than Merit's BMI? =  " + finalCheck2);
 
+
+// Random Test code not part of the task
 let color = 'red';
 let displayColor = true;
 
